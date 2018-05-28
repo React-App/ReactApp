@@ -1,0 +1,10 @@
+/**
+ *  Created by zhangshumeng on 2018/5/14
+ */
+
+.connection_interestPersonalCell {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: white;
+}

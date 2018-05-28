@@ -1,0 +1,29 @@
+/**
+ *  Created by zhangshumeng on 2018/5/14
+ */
+.behaviorCell {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.behaviorCell_bg {
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.behaviorCell_bg_count {
+    padding-top: 20px;
+    color: #A7A7AA;
+    font-size: 36px;
+}
+
+.behaviorCell_bg_title {
+    padding-top: 5px;
+    color: #C7C7C7;
+    font-size: 16px;
+}

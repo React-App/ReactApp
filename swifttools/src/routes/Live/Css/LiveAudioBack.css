@@ -1,0 +1,84 @@
+
+.liveDetail {
+    background-color: white;
+}
+
+.liveDetail_bg {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.liveDetail_section {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #333743;
+}
+
+.liveDetail_subject {
+    color: #222222;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 22px;
+}
+
+.liveDetail_userInfo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.liveDetail_userIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.liveDetail_userName {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.liveDetail_userComeFrom {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.liveDetail_user_nameLeft {
+    font-size: 14px;
+    color: #777777;
+    width: 45px;
+}
+
+.liveDetail_user_nameRight {
+    font-size: 14px;
+    color: #5AA5DA;
+}
+
+.liveDetail_addFollowBtn {
+    width: 60px;
+    height: 24px;
+    float: right;
+    padding-top: 18px;
+}
+
+.liveDetail_disclaimer {
+    font-size: 16px;
+    color: #777777;
+}
+
+.liveDetail_disclaimer_text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+.liveDetail_background-color {
+    background-color: red;
+}

@@ -1,0 +1,640 @@
+
+/* CSS Document  text-decoration 去除文字底部的下划线 */
+a:link {
+    text-decoration: none;
+}
+
+.personal_bg {
+    background-color: white;
+}
+
+.FR {
+    float: right;
+}
+
+.FL {
+    float: left;
+}
+
+/************************************* 个人中心 CSS 开始 *************************************/
+
+.personal_userInfo {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.01rem solid #dfdfdf;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.personal_userInfoIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.personal_userInfo_right {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.personal_userInfo_right_superName {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25px;
+}
+
+.personal_userInfo_right_name {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+}
+.personal_userInfo_right_grade {
+    margin-left: 10px;
+    width: 45px;
+    height: 16px;
+    color: #9A69FE;
+    font-size: 10px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+    border: 0.9px solid #9A69FE;
+}
+
+.personal_userInfo_right_superIntroduction {
+    margin-top: 7px;
+}
+
+.personal_userInfo_right_introduction {
+    color: #666666;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.personal_userInfo_right_introductionIcon {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.personal_userInfo_bottom {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal_userInfo_bottom_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.personal_userInfo_bottom_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.personal_userInfo_bottom_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+}
+
+.personal_userInfo_bottom_topText {
+    color: #555555;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.personal_userInfo_bottom_bottomText {
+    color: #555555;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.personal_super_cell {
+    margin-top: 15px;
+    background-color: white;
+}
+
+.personal_cell {
+    position: relative;
+    margin-left: 54px;
+    height: 60px;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+.personal_cellNoneLine {
+    position: relative;
+    margin-left: 54px;
+    height: 60px;
+}
+
+.personal_cell_leftImg {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: -33px;
+    top: 19px;
+}
+
+.personal_cell_leftText {
+    color: #555555;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.personal_cell_rightImg {
+    position: absolute;
+    top: 22px;
+    width: 8px;
+    height: 14px;
+    right: 20px;
+}
+
+/************************************* 个人中心 CSS 结束 *************************************/
+
+/************************************* 明细 CSS 开始 *************************************/
+.personal_detail_bg {
+    background-color: #9A69FE;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.personal_detail_balanceText {
+    opacity: 0.6;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+.personal_detail_balance {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 51px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.personal_detail_putforward {
+    margin-top: 15px;
+    width: 70px;
+    height: 35px;
+    border-radius: 100px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    color: #5A555D;
+    float: right;
+}
+
+.personal_detail_bottom {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.personal_detail_bottom_category {
+    float: left;
+    display: inline-block;
+    opacity: 0.6;
+    height: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.personal_detail_bottom_time {
+    float: right;
+    display: inline-block;
+    opacity: 0.6;
+    height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.personal_detail_bottom_dropImg {
+    padding-left: 5px;
+    width: 8px;
+    height: 5px;
+    padding-bottom: 2px;
+}
+
+.personal_detail_content_noData {
+    text-align: center;
+    vertical-align: middle; /* 属性设置元素的垂直对齐方式 */
+}
+
+.personal_detail_content_noDataImg {
+    padding-top: 112px;
+    /*vertical-align: middle;*/
+    width: 100px;
+    height: 100px;
+}
+
+.personal_detail_content_noDataText {
+    padding-top: 15px;
+    color: #B5B5B5;
+    font-size: 16px;
+}
+
+.personal_detail_content_cellBg {
+    background-color: white;
+}
+
+.personal_detail_content_cell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.personal_detail_content_cell_top {
+    padding-top: 15px;
+}
+
+.personal_detail_content_cell_topImg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.personal_detail_content_cell_topText {
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+    color: #212121;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.personal_detail_content_cell_topTime {
+    margin-top: 5px;
+    vertical-align: middle;
+    float: right;
+    text-align: right;
+    color: #727272;
+    font-size: 11px;
+}
+
+.personal_detail_content_cell_Middle {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.personal_detail_content_cell_MiddleLeftText {
+    vertical-align: middle;
+    font-size: 24px;
+    float: left;
+}
+
+.personal_detail_content_cell_MiddleRightTopText {
+    text-align: right;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.personal_detail_content_cell_MiddleRightBottomText {
+    text-align: right;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.personal_detail_content_cell_bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 41px;
+}
+
+.personal_detail_content_cell_bottomLine {
+    background-color: #dfdfdf;
+    height: .02rem;
+}
+
+.personal_detail_content_cell_bottomText {
+    font-size: 12px;
+    line-height: 41px;
+    color: #212121;
+    vertical-align: middle;
+}
+
+.personal_detail_content_cell_bottomRightImg {
+    width: 8px;
+    height: 14px;
+    float: right;
+    margin-top: 13px;
+}
+
+.personal_detail_content_cellSpacing {
+    background-color: #EEEEEE;
+    height: 10px;
+}
+
+/************************************* 明细 CSS 结束 *************************************/
+
+/************************************* 物品明细 CSS 开始 *************************************/
+
+.personal_goods_cell_top {
+    margin-top: 10px;
+    position: relative;
+}
+
+.personal_goods_cell_content {
+    position: relative;
+    text-align: right;
+    margin-left: 8px;
+}
+
+.personal_goods_cell_content_title {
+    margin-top: 11px;
+    line-height: 18px;
+    color: #555555;
+    font-size: 13px;
+}
+
+.personal_goods_cell_content_detail {
+    margin-top: 5px;
+    line-height: 16px;
+    color: #888888;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.personal_goods_cell_content_stateSuper {
+    text-align: right;
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
+
+.personal_goods_cell_content_stateInfo {
+    color: #555555;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.personal_goods_cell_content_state_bottom {
+    color: #888888;
+    line-height: 18px;
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+
+.personal_goods_cell_content_state_shipments {
+    color: red;
+}
+
+.personal_goods_cell_content_state {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.personal_goods_cell_content_img {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: -10px;
+    top: 0;
+}
+
+/************************************* 物品明细 CSS 结束 *************************************/
+
+/************************************* 关于我们 CSS 开始 *************************************/
+.personal_about_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal_about_img {
+    width: 110px;
+    height: 70px;
+    margin-top: 87px;
+}
+
+.personal_about_version {
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #555555;
+}
+
+.personal_about_slogan {
+    margin-top: 67px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #A348FF;
+}
+
+.personal_about_bottom {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.personal_about_bottom_super {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.personal_about_bottom_img {
+    width: 18px;
+    height: 18px;
+}
+
+.personal_about_bottom_emial {
+    margin-left: 5px;
+    color: #222222;
+    font-size: 14px;
+}
+
+.personal_about_bottom_companyInfo {
+    font-size: 11px;
+    color: #888888;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+/************************************* 关于我们 CSS 结束 *************************************/
+
+/************************************* 帮助中心 CSS 开始 *************************************/
+
+.personal_helpCenter_bg {
+    background-color: white;
+}
+
+.personal_helpCenter_row {
+    position: relative;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    height: 60px;
+    color: #333333;
+    line-height: 60px;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+
+.personal_helpCenter_rowRightImg {
+    top: 22px;
+    width: 8px;
+    height: 14px;
+    right: 20px;
+    position: absolute;
+}
+
+.personal_helpCenter_email {
+    font-size: 13px;
+    color: #888888;
+    line-height: 18px;
+    left: 0px;
+    right: 0px;
+    bottom: 25px;
+    text-align: center;
+    position: fixed;
+}
+
+.personal_helpCenter_detail_bg {
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.personal_helpCenter_detail_row {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.personal_helpCenter_detail_question {
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 13px;
+}
+
+.personal_helpCenter_detail_answer {
+    word-wrap: break-word; /* 在长单词或 URL 地址内部进行换行。 */
+    padding-top: 10px;
+    margin-right: 13px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/************************************* 帮助中心 CSS 结束 *************************************/
+
+/************************************* 推荐有奖 CSS 开始 *************************************/
+.personal_rec_topImg {
+    width: 100%;
+}
+
+.personal_rec_shareDetail_bg {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    right: 20px;
+    height: 138px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: .5px .5px 8px rgba(33, 33, 33, 0.28);
+}
+
+.personal_rec_shareDetail_bg_title {
+    margin-top: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 15px;
+    color: #555555;
+}
+
+.personal_rec_shareDetail_bg_reward {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #555555;
+    font-size: 24px;
+}
+
+.personal_rec_rusult {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 145px;
+    display: flex; /* 属性规定元素应该生成的框的类型 */
+    flex-direction: row;
+}
+
+.personal_rec_rusult_reward {
+    padding-top: 110px;
+    width: 50%;
+    text-align: center;
+}
+
+.personal_rec_rusult_reward_success {
+    color: #555555;
+    font-size: 15px;
+}
+
+.personal_rec_rusult_reward_count {
+    color: #9A69FE;
+    font-size: 15px;
+}
+
+.personal_rec_reward {
+    background-color: white;
+    margin-top: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #555555;
+    padding-bottom: 150px;
+}
+
+.personal_rec_rewardStyle {
+    font-size: 18px;
+}
+
+.personal_rec_rewardStyle_detail {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.personal_rec_rewardButton {
+    position: absolute;
+    background-color: #9A69FE;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+
+/************************************* 推荐有奖 CSS 结束 *************************************/

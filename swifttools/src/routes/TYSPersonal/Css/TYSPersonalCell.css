@@ -1,0 +1,45 @@
+/**
+ *  Created by zhangshumeng on 2018/5/15
+ */
+
+.tysPersonalCell_bg {
+    height: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tysPersonalCell_bg_leftImg {
+    width: 20px;
+    margin-left: 24px;
+}
+
+.tysPersonalCell_bg_leftTitle {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.tysPersonalCell_bg_rightBG {
+    float: right;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-right: 24px;
+    padding-top: 17px;
+}
+
+.tysPersonalCell_bg_rightImg {
+    height: 16px;
+}
+
+.tysPersonalCell_bg_rightTitle {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #222222;
+}
+
+.tysPersonalCell_bg_bottomLine {
+    border-bottom: 0.01rem solid #dfdfdf;
+    margin-left: 24px;
+    margin-right: 24px;
+}

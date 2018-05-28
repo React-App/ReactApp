@@ -1,0 +1,24 @@
+{
+  "name": "swifttools",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.1.8",
+    "iosselect": "^1.1.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-pullload": "^1.1.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-native": "^4.2.0",
+    "react-scripts": "1.1.4",
+    "react-sticky": "^6.0.2",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,78 @@
+/**
+ *  Created by zhangshumeng on 2018/5/10
+ */
+
+.liveList_bg {
+    background-color: white;
+}
+
+.liveList {
+    position: fixed;
+}
+
+.liveList_cell {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.liveList_cell_items {
+    width: 50%;
+}
+
+.liveList_cell_item {
+    padding: 6px 6px 6px 6px;
+}
+
+.liveList_cell_item_img {
+    width: 100%;
+}
+
+.liveList_cell_item_statsBg {
+    display: inline-flex;
+}
+
+.liveList_cell_item_liveState_live {
+    background-color: #E25039;
+    width: 17px;
+    height: 14px;
+}
+
+.liveList_cell_item_liveState {
+    width: 17px;
+    height: 14px;
+}
+
+.liveList_cell_item_entryCount {
+    padding-left: 5px;
+    color: #777777;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.liveList_cell_item_sub {
+    padding-top: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.liveList_cell_item_bottom {
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+.liveList_cell_item_bottom_org {
+    font-size: 11px;
+    color: #777777;
+}
+
+.liveList_cell_item_bottom_time {
+    font-size: 11px;
+    color: #BBBBBB;
+    float: right;
+}
+
+.test {
+    background-color: red;
+}

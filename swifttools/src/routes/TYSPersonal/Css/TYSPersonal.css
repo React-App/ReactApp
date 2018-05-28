@@ -1,0 +1,38 @@
+/**
+ *  Created by zhangshumeng on 2018/5/15
+ */
+
+.personal {
+    background-color: white;
+}
+
+.personalBehaviorCell {
+    margin-top: 20px;
+}
+
+.personal_meliveOrAddBG {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.personal_melivebg {
+    line-height: 120px;
+    width: 50%;
+}
+
+.personal_melive {
+    height: 30px;
+    line-height: 120px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 10px;
+}
+
+.personal_addfriends {
+    height: 30px;
+    line-height: 120px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    float: right;
+}
