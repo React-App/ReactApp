@@ -4,16 +4,17 @@
 
 import React, {Component} from 'react'
 
-import Request from './Request'
+import { Request, Request1 } from './Request'
 
 import './Request'
 
 let baseUrl = 'http://api.touyanshe.com.cn/touyanshe_api/s/api'
+let baseUrl1 = 'https://test.mis.ubye.cn/m/share/sweepOrder'
 
 export {
-    POST
+    POST,
+    TestPost
 }
-
 
 let POST = function(options) {
 
@@ -33,6 +34,26 @@ let POST = function(options) {
                 }
 
                 success(response['object'])
+            })
+            .catch((error) => {
+                file(error)
+            })
+    })
+}
+
+let TestPost = function(options) {
+
+    return new Promise(function (success, file) {
+
+        Request1(baseUrl1, options, 'POST')
+            .then((response) => {
+
+                // if (response['msg'] != '成功' && response['statusCode'] != '00000') {
+                //     file({status:-1})
+                //     return
+                // }
+                console.log(response)
+                success(response['result'])
             })
             .catch((error) => {
                 file(error)

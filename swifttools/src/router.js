@@ -19,6 +19,8 @@ import RecLiveList from './routes/Live/JS/LiveRecLiveList'
 import Connection from './routes/Home/JS/Connection'
 import TYSPersonal from './routes/TYSPersonal/JS/TYSPersonal'
 
+import Test from './routes/TYSPersonal/JS/Test'
+
 const history = createBrowserHistory()
 
 class RouterRoot extends Component {
@@ -56,6 +58,8 @@ class RouterRoot extends Component {
                     <Route path="/Home/Connection/:accessToken/:user_id" component={Connection}/>
                     {/* tys 个人中心 */}
                     <Route path="/TYSPersonal/:accessToken/:user_id" component={TYSPersonal}/>
+                    {/* 测试 */}
+                    <Route path="/TYSPersonal/Test" component={Test}/>
                 </div>
             </Router>
         );
