@@ -4,9 +4,9 @@
 
 import React, {Component} from 'react'
 
-import { Request, Request1 } from './Request'
+import { Request, Request1 } from './Request/Request'
 
-import './Request'
+import './Request/Request'
 
 let baseUrl = 'http://api.touyanshe.com.cn/touyanshe_api/s/api'
 let baseUrl1 = 'https://test.mis.ubye.cn/m/share/sweepOrder'
@@ -48,10 +48,10 @@ let TestPost = function(options) {
         Request1(baseUrl1, options, 'POST')
             .then((response) => {
 
-                // if (response['msg'] != '成功' && response['statusCode'] != '00000') {
-                //     file({status:-1})
-                //     return
-                // }
+                if (response['code'] != '2000') {
+                    file({status:-1})
+                    return
+                }
                 console.log(response)
                 success(response['result'])
             })

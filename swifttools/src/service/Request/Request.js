@@ -6,6 +6,8 @@ import React, { Component } from 'react'
 
 import 'whatwg-fetch'
 
+import { isiOS } from "../../config/Tools";
+
 export {
     Request,
     Request1
@@ -80,7 +82,12 @@ let Request1 = function(url, formData, method = 'GET') {
     }
 
     console.log("ReuqestURL: " + url)
-    console.log(options)
+    console.log(JSON.stringify(options))
+
+    // if (isiOS()) {
+        requestPar(JSON.stringify(options))
+    // }
+
 
     return new Promise(function (resolve, reject) {
         fetch(url, initObj)
@@ -111,4 +118,10 @@ function obj2String(obj, arr = [], idx = 0) {
         arr[idx++] = [item, obj[item]]
     }
     return new URLSearchParams(arr).toString()
+}
+
+function requestPar (content) {
+    // if (isiOS()) {
+        window.webkit.messageHandlers.RequestPar.postMessage(content)
+    // }
 }
